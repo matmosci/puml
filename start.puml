@@ -1,3 +1,16 @@
 @startuml
-class Class{}
+
+rectangle System{
+    class ClassA{
+        property
+        method()
+    }
+    class ClassB{
+        property
+        method()
+    }
+}
+
+ClassA->ClassB
+
 @enduml
