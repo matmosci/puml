@@ -5,12 +5,12 @@
 In ~/.gitconfig add an alias:
 
     [alias]
-      puml = clone https://github.com/matmosci/puml.git uml
+      puml = clone https://github.com/matmosci/puml.git
 
 ## Create new UML project
 
-> git puml
-> cd uml
+> git puml {dir}
+> cd {dir}
 > *rm -rf .git*
 > sh run
 
